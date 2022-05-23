@@ -1,0 +1,91 @@
+*{
+    background-color: rgb(146, 146, 146);
+}
+
+
+#btnDesencrip,#btnEncrip{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    cursor: pointer;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 29px;
+    position: static;
+    width: 160px;
+    height: 47px;
+    padding-top: 16px;
+    background: #0A3871;
+    border-radius: 10px;   
+    margin: 0px 17px;
+}
+
+
+ #copiar{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    cursor: pointer;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 29px;
+    position: static;
+    width: 120px;
+    height: 47px;
+    margin-top: 1px;
+    padding-top: 14px;
+    background: #6a6b6b;
+    border-radius: 10px;   
+    margin: 40px 14px;
+    
+}
+.ensayo{
+    display: flex;
+    margin-top: 55px;
+    text-align: center;
+    margin-bottom: 1px;
+}
+
+textarea{
+    resize: none;
+    border-radius: 7px;
+        
+}
+
+#muneco{
+    width: 250px;
+}
+.btn:hover{
+    border-color: rgb(58, 57, 57);
+}
+.botones{
+    display: inline;
+}
+
+.cuadroTexto{
+    position: absolute;
+    width: 400px;
+    height: 944px;
+    left: 300px;
+    top: 40px;
+    background: #8b5a5a;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+}
+
+/* ↓↓↓↓ */
+
+.invisible{
+    display:none
+}
+h3{
+    margin-bottom: 1px;
+}
+
+textarea:focus, input:focus, input[type]:focus {
+    border-color: rgb(26, 20, 16);
+    box-shadow: 0 1px 1px  rgba(229, 103, 23, 0.075)inset, 0 0 8px rgba(49, 49, 49, 0.6);
+    outline: 0 none;
+}
+
+.retornoinvisible{
+    display: none;
+}
